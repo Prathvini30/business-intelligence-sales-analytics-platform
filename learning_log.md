@@ -44,3 +44,8 @@
 - Q9: Central avg discount 0.240, 27.7% of lines over 20% discount, those lines lose 52.4k (> Central's total profit 39.7k); West lowest discount (0.109) and highest margin
 - Q10: customers place 1-17 orders (mode 5-7); only 12 one-time customers, so repeat rate (98.5%) is not discriminating
 - To test: category mix by region as an alternative explanation
+## Phase 5: top/bottom
+- Q11: #1 customer by revenue (Sean Miller, 25.0k) has NEGATIVE profit (-1.98k); #6 (Ken Lonsdale) earns only 0.8k on 14.2k.
+  Lesson: rank customers by profit as well as revenue.
+- Q12: worst products are mostly Machines (3D printers, Lexmark printer, Cisco TelePresence) and Tables;
+  Cubify CubeX Double Head alone loses 8.9k
