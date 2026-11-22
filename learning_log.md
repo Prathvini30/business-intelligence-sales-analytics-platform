@@ -36,3 +36,7 @@
 - Q6 YoY revenue: 2015 -2.8%, 2016 +29.5%, 2017 +20.4%; matches pandas
 - Q5: strong seasonality; Jan/Feb lows, November peaks (Nov 2017 = 118,447.83, highest month)
 - Lesson: MoM % is noisy under seasonality; use same-month YoY
+## Phase 5: regions and customers
+- Q7: West 14.9%, East 13.5%, South 11.9%, Central 7.9% margin (matches pandas)
+- Q8: 781 of 793 customers (98.5%) ordered more than once. Simple repeat rate is not discriminating
+  over 4 years; use RFM and per-year activity instead.
