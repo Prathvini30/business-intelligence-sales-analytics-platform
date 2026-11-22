@@ -32,3 +32,7 @@
 - Q1: 5,009 orders, 793 customers, revenue 2,296,919.49, cost 2,010,510.41, profit 286,409.08, margin 12.5%, AOV 458.56
 - Q3: Copiers top (55.6k); Supplies, Bookcases, Tables lose money; Machines margin ~1.8%
 - Q4: all categories profitable up to 20% discount, loss-making above it; Furniture over-20% lines lose 54.5k
+## Phase 5: trends
+- Q6 YoY revenue: 2015 -2.8%, 2016 +29.5%, 2017 +20.4%; matches pandas
+- Q5: strong seasonality; Jan/Feb lows, November peaks (Nov 2017 = 118,447.83, highest month)
+- Lesson: MoM % is noisy under seasonality; use same-month YoY
