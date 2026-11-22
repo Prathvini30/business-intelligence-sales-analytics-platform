@@ -40,3 +40,7 @@
 - Q7: West 14.9%, East 13.5%, South 11.9%, Central 7.9% margin (matches pandas)
 - Q8: 781 of 793 customers (98.5%) ordered more than once. Simple repeat rate is not discriminating
   over 4 years; use RFM and per-year activity instead.
+  ## Phase 5: deep dives
+- Q9: Central avg discount 0.240, 27.7% of lines over 20% discount, those lines lose 52.4k (> Central's total profit 39.7k); West lowest discount (0.109) and highest margin
+- Q10: customers place 1-17 orders (mode 5-7); only 12 one-time customers, so repeat rate (98.5%) is not discriminating
+- To test: category mix by region as an alternative explanation
