@@ -16,3 +16,10 @@
   and non-breaking spaces (\xa0) were hiding inside product names. Fixed and guarded with an assert.
 - Control totals for later cross-checks: sales 2,296,919.49, profit 286,409.08,
   9,993 rows, 5,009 orders, 793 customers, 1,894 products
+  ## Phase 3: EDA findings (from actual output)
+- Sales: 2014 $484.0k, 2015 $470.5k, 2016 $609.2k, 2017 $733.2k; margin 10.2% -> 13.1% -> 13.4% -> 12.7%
+- Furniture margin 2.5% vs Office Supplies 17.0% and Technology 17.4%
+- Loss-making sub-categories: Tables (-17.7k), Bookcases (-3.5k), Supplies (-1.2k)
+- Region margins: West 14.9%, East 13.5%, South 11.9%, Central 7.9%
+- Seasonality: early-year dips, strong year-end peaks
+- Hypothesis to test in SQL: deep discounts drive Furniture and Central losses
