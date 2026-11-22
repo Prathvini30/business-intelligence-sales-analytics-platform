@@ -23,3 +23,8 @@
 - Region margins: West 14.9%, East 13.5%, South 11.9%, Central 7.9%
 - Seasonality: early-year dips, strong year-end peaks
 - Hypothesis to test in SQL: deep discounts drive Furniture and Central losses
+## Phase 4: Database
+- Schema: customers, products (surrogate product_key), orders, order_items; PKs, FKs, CHECK constraints, indexes
+- Design basis (verified): each order has one date, ship mode and destination; customer_id never conflicts
+- Loader: split flat CSV with drop_duplicates, loaded parent-to-child in one transaction (rolls back on failure)
+- Reconciliation: 793 / 1,894 / 5,009 / 9,993 rows; sales 2,296,919.49; profit 286,409.08 all match the Python control totals
