@@ -83,3 +83,6 @@
 - Loss-making lines: Excel 1,870 vs pandas-before-cleaning 1,871; difference = the dropped duplicate (Row 3407, a loss line)
 - Avg line discount 15.6%
 - Skills used: tables, SUMIFS, COUNTIFS, pivot + slicer, calculated field, conditional formatting
+## Phase 8: Excel
+- Excel matched SQL: revenue, profit, category SUMIFS, pivot margins; loss lines 1,870 = SQL
+- Used: tables, SUMIFS, COUNTIFS, IFERROR, XLOOKUP / INDEX-MATCH, PivotTable, slicer, calculated field, colour-scale formatting
