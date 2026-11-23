@@ -75,3 +75,6 @@
   so "below reorder" == "zero stock" (681 both). Fixed with a 30-day review period + 2-unit safety stock.
 - After fix: reorder levels 3-6; below reorder 681, zero stock 198.
 - These counts are artifacts of the simulation, not business findings.
+## Phase 7: inventory SQL (SIMULATED stock)
+- Q17: Healthy 1,213 / Below reorder 483 / Stock-out 198 (artifact of simulation)
+- Q18: reorder list ranked by REAL profit; top item Fellowes PB500 (7.75k profit, simulated stock 0)
