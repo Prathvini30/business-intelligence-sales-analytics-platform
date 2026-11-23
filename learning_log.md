@@ -69,3 +69,9 @@
   ## Phase 7: real movement analysis
 - Q15: quartiles by units sold: Fast 474 products/16,555 units (26-67 per product), Slow 473/3,558 (1-12).
   Fast quartile = ~44% of units. NTILE ties split across boundaries.
+  ## Phase 7: simulated inventory (SIMULATED, seed 42)
+- Real: units sold, unit_cost (cost/quantity). Simulated: suppliers, lead times, stock_on_hand, reorder_level.
+- Bug found: first version gave reorder_level = 1 for 1,891/1,894 products (demand ~0.014/day, ceil rounding),
+  so "below reorder" == "zero stock" (681 both). Fixed with a 30-day review period + 2-unit safety stock.
+- After fix: reorder levels 3-6; below reorder 681, zero stock 198.
+- These counts are artifacts of the simulation, not business findings.
