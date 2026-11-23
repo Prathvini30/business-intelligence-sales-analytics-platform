@@ -66,3 +66,6 @@
 ## Phase 7: real inventory-related analysis (from sales only)
 - Q16: 347 products (about 18% of 1,894) had no sale in 2017; a review list, not proof of failure,
   since most products sell rarely
+  ## Phase 7: real movement analysis
+- Q15: quartiles by units sold: Fast 474 products/16,555 units (26-67 per product), Slow 473/3,558 (1-12).
+  Fast quartile = ~44% of units. NTILE ties split across boundaries.
