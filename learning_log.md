@@ -49,3 +49,4 @@
   Lesson: rank customers by profit as well as revenue.
 - Q12: worst products are mostly Machines (3D printers, Lexmark printer, Cisco TelePresence) and Tables;
   Cubify CubeX Double Head alone loses 8.9k
+  - Sean Miller check: one Cisco TelePresence line (22.6k sales, 50% discount, -1.81k profit) is ~90% of his revenue and explains his negative profit.
