@@ -55,3 +55,7 @@
 - Champions 104, Loyal 228, At Risk 80, Lost 175, Needs Attention 118, New/Promising 88 (= 793)
 - Champions+Loyal ~53% of revenue; At Risk: 80 customers, 8.7 avg orders, 195 days inactive, 56.4k profit -> win-back priority
 - Limitation: NTILE ties; arbitrary segment thresholds
+## Phase 6: customer metrics
+- Q14 (business segment): avg lifetime revenue Corporate 2,992 / Home Office 2,901 / Consumer 2,840;
+  avg lifetime profit Home Office 407.5 > Corporate 389.7 > Consumer 327.9; AOV 449-472.
+  Segments are similar, so RFM is the better differentiator.
