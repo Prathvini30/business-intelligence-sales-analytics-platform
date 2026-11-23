@@ -63,3 +63,6 @@
 - New customers per year: 595, 136, 51, 11 (= 793 total); returning: 0, 437, 587, 682
 - 2017 active base 693, of which 682 returning: growth is driven by existing customers; acquisition has nearly stopped in the data
 - Caveat: cause unknown (could be a sampled dataset)
+## Phase 7: real inventory-related analysis (from sales only)
+- Q16: 347 products (about 18% of 1,894) had no sale in 2017; a review list, not proof of failure,
+  since most products sell rarely
