@@ -78,3 +78,8 @@
 ## Phase 7: inventory SQL (SIMULATED stock)
 - Q17: Healthy 1,213 / Below reorder 483 / Stock-out 198 (artifact of simulation)
 - Q18: reorder list ranked by REAL profit; top item Fellowes PB500 (7.75k profit, simulated stock 0)
+## Phase 8: Excel validation
+- Excel matched SQL: revenue 2,296,919.49, profit 286,409.08, 9,993 lines, category SUMIFS, pivot margins
+- Loss-making lines: Excel 1,870 vs pandas-before-cleaning 1,871; difference = the dropped duplicate (Row 3407, a loss line)
+- Avg line discount 15.6%
+- Skills used: tables, SUMIFS, COUNTIFS, pivot + slicer, calculated field, conditional formatting
