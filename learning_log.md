@@ -50,3 +50,8 @@
 - Q12: worst products are mostly Machines (3D printers, Lexmark printer, Cisco TelePresence) and Tables;
   Cubify CubeX Double Head alone loses 8.9k
   - Sean Miller check: one Cisco TelePresence line (22.6k sales, 50% discount, -1.81k profit) is ~90% of his revenue and explains his negative profit.
+  ## Phase 6: RFM
+- Reference date 2017-12-31; NTILE(5) scores; segments by CASE rules (my definitions)
+- Champions 104, Loyal 228, At Risk 80, Lost 175, Needs Attention 118, New/Promising 88 (= 793)
+- Champions+Loyal ~53% of revenue; At Risk: 80 customers, 8.7 avg orders, 195 days inactive, 56.4k profit -> win-back priority
+- Limitation: NTILE ties; arbitrary segment thresholds
