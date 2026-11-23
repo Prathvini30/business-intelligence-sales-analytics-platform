@@ -59,3 +59,7 @@
 - Q14 (business segment): avg lifetime revenue Corporate 2,992 / Home Office 2,901 / Consumer 2,840;
   avg lifetime profit Home Office 407.5 > Corporate 389.7 > Consumer 327.9; AOV 449-472.
   Segments are similar, so RFM is the better differentiator.
+  ## Phase 6: new vs returning (Q13)
+- New customers per year: 595, 136, 51, 11 (= 793 total); returning: 0, 437, 587, 682
+- 2017 active base 693, of which 682 returning: growth is driven by existing customers; acquisition has nearly stopped in the data
+- Caveat: cause unknown (could be a sampled dataset)
