@@ -22,7 +22,24 @@ GROUP BY p.product_name, p.sub_category, i.stock_on_hand, i.reorder_level,
 ORDER BY real_profit DESC
 LIMIT 15;
 
--- Q19. Inventory turnover and days inventory outstanding (SIMULATED stock, REAL cost of goods sold)
-SELECT ROUND((SUM(oi.cost) / NULLIF(AVG(i.stock_on_hand * i.unit_cost), 0))::numeric, 2) AS placeholder_check
-FROM sim_inventory i
-JOIN order_items oi ON oi.product_key = i.product_key;
+
+-- Q19. Turnover and DIO by category (SIMULATED stock value, REAL annual COGS)
+WITH cogs AS (
+    SELECT p.category, SUM(oi.cost) / 4.0 AS annual_cogs
+    FROM order_items oi
+    JOIN products p ON p.product_key = oi.product_key
+    GROUP BY p.category
+),
+inv AS (
+    SELECT p.category, SUM(i.stock_on_hand * i.unit_cost) AS inventory_value
+    FROM sim_inventory i
+    JOIN products p ON p.product_key = i.product_key
+    GROUP BY p.category
+)
+SELECT c.category,
+       ROUND(c.annual_cogs::numeric, 0)      AS annual_cogs,
+       ROUND(v.inventory_value::numeric, 0)  AS inventory_value,
+       ROUND((c.annual_cogs / v.inventory_value)::numeric, 2) AS turnover,
+       ROUND((365 / (c.annual_cogs / v.inventory_value))::numeric, 0) AS dio_days
+FROM cogs c JOIN inv v ON v.category = c.category
+ORDER BY turnover DESC;
