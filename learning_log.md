@@ -86,3 +86,9 @@
 ## Phase 8: Excel
 - Excel matched SQL: revenue, profit, category SUMIFS, pivot margins; loss lines 1,870 = SQL
 - Used: tables, SUMIFS, COUNTIFS, IFERROR, XLOOKUP / INDEX-MATCH, PivotTable, slicer, calculated field, colour-scale formatting
+## Phase 9: Power BI
+- Model: 6 relationships (single direction), Dim_Date via CALENDAR, one measure per formula
+- Pitfalls: pasting several measures in one formula bar; adding a field to an existing visual caused "no supported relationship";
+  YoY total row is meaningless (hide grand total)
+- DAX matched SQL (YoY 2015 -2.8%, 2016 +29.5%, 2017 +20.4%)
+- Inventory page labelled SIMULATED
