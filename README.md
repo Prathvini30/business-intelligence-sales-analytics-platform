@@ -1,4 +1,4 @@
-# End-to-End Business Intelligence & Sales Analytics Platform
+# Business Intelligence & Sales Analytics Platform
 
 A portfolio project that turns raw retail sales data into insights using
 **Python, PostgreSQL, SQL, Excel and Power BI**.
